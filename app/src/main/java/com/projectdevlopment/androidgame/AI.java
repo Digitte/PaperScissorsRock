@@ -14,7 +14,7 @@ public class AI extends Player {
     Random random = new Random();
 
     public void generateRandomToken(){
-        super.setToken(1 + random.nextInt(3));
+        super.setToken(1 + random.nextInt(5));
     }
 
     @Override

@@ -39,12 +39,20 @@ public class MainActivity extends ActionBarActivity {
                 imageViewP1.setImageResource(R.drawable.paper);
                 break;
             case R.id.rdbSissors:
-                game.playerOne.setToken(game.SISSORS);
+                game.playerOne.setToken(game.SCISSORS);
                 imageViewP1.setImageResource(R.drawable.sissors);
                 break;
             case R.id.rdbRock:
                 game.playerOne.setToken(game.ROCK);
                 imageViewP1.setImageResource(R.drawable.rock);
+                break;
+            case R.id.rdbLizard:
+                game.playerOne.setToken(game.LIZARD);
+                imageViewP1.setImageResource(R.drawable.lizard);
+                break;
+            case R.id.rdbSpock:
+                game.playerOne.setToken(game.SPOCK);
+                imageViewP1.setImageResource(R.drawable.spock);
                 break;
         }
     }
@@ -66,7 +74,12 @@ public class MainActivity extends ActionBarActivity {
             case 3:
                 imageViewAI.setImageResource(R.drawable.rock);
                 break;
-
+            case 4:
+                imageViewAI.setImageResource(R.drawable.lizard);
+                break;
+            case 5:
+                imageViewAI.setImageResource(R.drawable.spock);
+                break;
         }
         //calculate winner
 

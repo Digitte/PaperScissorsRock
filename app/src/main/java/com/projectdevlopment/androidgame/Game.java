@@ -7,8 +7,10 @@ public class Game {
 
     public static final int NONE = 0;
     public static final int PAPER = 1;
-    public static final int SISSORS = 2;
+    public static final int SCISSORS = 2;
     public static final int ROCK = 3;
+    public static final int LIZARD = 4;
+    public static final int SPOCK = 5;
     Player playerOne;
     Player playerTwo;
     AI playerAI;

@@ -81,7 +81,7 @@
         <RadioButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Paper"
+            android:text="Pa"
             android:id="@+id/rdbPaper"
             android:layout_above="@+id/tokenP1"
             android:layout_alignParentStart="true"
@@ -93,7 +93,7 @@
         <RadioButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Sissors"
+            android:text="Si"
             android:id="@+id/rdbSissors"
             android:checked="false"
             android:layout_alignTop="@+id/rdbRock"
@@ -104,7 +104,7 @@
         <RadioButton
             android:layout_width="47dp"
             android:layout_height="wrap_content"
-            android:text="Rock"
+            android:text="Ro"
             android:id="@+id/rdbRock"
             android:checked="false"
             android:onClick="handlerRadioButton"
@@ -116,18 +116,20 @@
         <RadioButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Lizard"
-            android:id="@+id/radioButton"
+            android:text="Li"
+            android:id="@+id/rdbLizard"
             android:checked="false"
+            android:onClick="handlerRadioButton"
             android:layout_alignTop="@+id/button"
             android:layout_toStartOf="@+id/button" />
 
         <RadioButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Spock"
-            android:id="@+id/radioButton2"
+            android:text="Sp"
+            android:id="@+id/rdbSpock"
             android:checked="false"
+            android:onClick="handlerRadioButton"
             android:layout_alignTop="@+id/button"
             android:layout_alignEnd="@+id/choice" />
 
